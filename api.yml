@@ -147,26 +147,22 @@ definitions:
     properties:
       id:
         type: integer
-      code:
+      student_id:
         type: integer
-      name:
-        type: string
-      credits:
+      course_code:
         type: integer
-      teacher:
-        type: string
+      grade:
+        type: float
 
   GradeInput:
     type: object
     properties:
-      code:
+      student_id:
         type: integer
-      name:
-        type: string
-      credits:
+      course_code:
         type: integer
-      teacher:
-        type: string
+      grade:
+        type: float
 
   GradesList:
     type: object
